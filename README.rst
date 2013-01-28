@@ -21,8 +21,11 @@ More Details
 
 Some time ago my company announced that they will start capturing and logging all HTTP traffic to and from the company. While I definitely don't spend my time at work surfing the web, I don't appreciate them looking over my shoulder and checking up on everything that I visit and read on the web.
 
-So I wrote a small application which is a very simple, rudementary HTTP proxy server. It handles most HTTP traffic and some very simple FTP traffic (clicking on FTP links from web pages). The code is based on Suzuki Hisao's Tiny HTTP Proxy module. I enhanced it to make it a standalone application.
-Tiny HTTP Proxy script
+So I wrote a small application which is a very simple, rudementary HTTP proxy
+server. It handles most HTTP traffic and some very simple FTP traffic (clicking
+on FTP links from web pages). The code is based on Suzuki Hisao's `Tiny HTTP
+Proxy <http://www.oki-osk.jp/esc/python/proxy/>`_ module. I enhanced it to make it a standalone application.
+
 Usage Examples
 
 Below is the script's help text which shows the accepted options and command line format:
