@@ -28,18 +28,22 @@ Usage Examples
 Below is the script's help text which shows the accepted options and command line format:
 proxy [-p port] [-l logfile] [-dh] [allowed_client_name ...]]
  
-   -p       - Port to bind to
-   -l       - Path to logfile. If not specified, STDOUT is used
-   -d       - Run in the background
+   -p       Port to bind to
+   -l       Path to logfile. If not specified, STDOUT is used
+   -d       Run in the background
 
 To start the proxy server and bind it to port 22222 (the port on which it will listen and accept connections):
-proxy -p 22222
+
+    proxy -p 22222
 
 To start the proxy server, bind it to port 22222 and tell it to log all requests to the file proxy.log:
-proxy -p 22222 -l proxy.log
+
+    proxy -p 22222 -l proxy.log
 
 To start the proxy server where it only allows connections from IP 123.123.123.123:
-proxy 123.123.123.123
+
+    proxy 123.123.123.123
 
 To start the proxy server bound to port 22222, log to file proxy.log and run the server in the background (as a daemon):
-proxy -p 22222 -l proxy.log -d
+
+    proxy -p 22222 -l proxy.log -d
