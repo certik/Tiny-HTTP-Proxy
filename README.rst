@@ -7,7 +7,7 @@ Ssh to ``myserver`` with:
 
 run the proxy on ``myserver``:
 
-    python TinyHTTPProxy.py -p 8080
+    ./proxy -p 8080
 
 On your computer, setup your browser to use the proxy ``localhost:8080`` (both for http and https). This will encrypt all HTTP traffic
 between your computer and the server.
