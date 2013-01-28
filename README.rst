@@ -12,6 +12,10 @@ run the proxy on ``myserver``:
 On your computer, setup your browser to use the proxy ``localhost:8080`` (both for http and https). This will encrypt all HTTP traffic
 between your computer and the server.
 
+License
+=======
+
+MIT license. See the ``LICENSE`` file fore more details.
 
 More Details
 ============
